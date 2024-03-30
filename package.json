@@ -1,0 +1,25 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio site for robdixon89",
+  "devDependencies": {
+    "eslint-import-resolver-typescript": "^3.6.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sb": "cd next && yarn storybook",
+    "install": "cd next && yarn",
+    "dev": "cd next && yarn dev",
+    "sanity-dev": "cd sanity && yarn dev",
+    "generate": "cd sanity && yarn sanity schema extract && yarn sanity typegen generate"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RobDixon89/Portfolio.git"
+  },
+  "author": "Rob Dixon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RobDixon89/Portfolio/issues"
+  }
+}

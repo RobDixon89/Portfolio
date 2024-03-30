@@ -1,0 +1,24 @@
+.colours {
+  --charcoal: #36454f;
+  --charcoalGradient: linear-gradient(
+    90deg,
+    hsl(204deg 19% 26%) 0%,
+    hsl(205deg 18% 25%) 9%,
+    hsl(205deg 19% 25%) 19%,
+    hsl(203deg 19% 24%) 29%,
+    hsl(205deg 18% 24%) 40%,
+    hsl(205deg 19% 23%) 52%,
+    hsl(206deg 19% 22%) 64%,
+    hsl(204deg 18% 22%) 76%,
+    hsl(204deg 19% 21%) 88%,
+    hsl(205deg 18% 20%) 100%
+  );
+  --white: #eaeaea;
+  --orange: #eb551e;
+}
+
+.main {
+  background: var(--charcoal);
+  background-image: var(--charcoalGradient);
+  color: var(--white);
+}

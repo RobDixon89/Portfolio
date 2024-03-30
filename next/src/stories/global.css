@@ -1,0 +1,8 @@
+/* Define font classes for use in storybook, as fallback for next/font/google */
+.raleway {
+  font-family: 'Raleway', sans-serif;
+}
+
+.bitter {
+  font-family: 'Bitter', serif;
+}
